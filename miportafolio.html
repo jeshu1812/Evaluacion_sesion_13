@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Mi Portafolio Maria Jesus Diaz</title>
+</head>
+
+
+
+<body>
+
+    <nav>
+        <h1>Maria Jesus Diaz</h1>
+        <ul class="navegacion">
+          <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+          <li><a href="#habilidaes" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        </nav>
+
+    
+   <section class="hero" id="about">
+            <img
+              src="./IMG/20211224_202806.jpg"
+              alt="Maria Jesus"
+              loading="lazy"
+              class="hero-img"
+            />
+            <div class="bio animate__animated animate__shakeX">
+              <h2 class="bio-titulo">Sobre Mí</h2>
+              <p class="bio-texto">
+            “Como futura desarrolladora soy motivada y orientada  a conseguir resultados dentro del area del desarrollo y programacion,
+          tengo experiencia en lenguaje javascript, atencion de publico y de clientes." Si desean ver mi CV hacer clicl en el enlace</p>
+          <p>
+            Visita mi <a href="./indexCV.HTML">CV</a>.
+          </p>
+          
+            </div>
+      </section>
+      <section class="mas-sobre">
+        <h2>Más sobre mí</h2>
+        <p> "Me considero bastante proactiva y perseverante, ademas de que me gusta el trabajo en equipo"</p>
+      </section>
+  
+        <section class="habilidades" id="habilidades">
+            <h2 class="header-habilidadr">Mis mejores habilidades</h2>
+      <p>Manejo de Html, CSS, javascript y Github</p>
+          </section>
+
+          <section class="proyectos" id="proyectos">
+            <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+            <div class="contenedor-de-proyectos">
+              <div class="contenedor-de-proyectos, tarjeta-de-proyectos">
+                <img
+                  src="./IMG/Nimrodel.png"
+                  alt="Nimrodel"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="titulo-de-proyectos">Restaurant</h3>
+                <p class="detalles-de-proyectos">
+                  Pagina para Restaurant Nimrodel
+                </p>
+                <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+              </div>
+              <div class="contenedor-de-proyectos, tarjeta-de-proyectos ">
+                <img
+                  src="./IMG/Tabla 2.png"
+                  alt="tabla2"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="titulo-de-proyectos">Tabla Informacion </h3>
+                <p class="detalles-de-proyectos">
+                  Tabla para ingresar contenido simple
+                </p>
+                <a href="#" target="_blank" class="project-link">Echale un vistazo!</a>
+              </div>
+              <div class="contenedor-de-proyectos, tarjeta-de-proyectos">
+                <img
+                  src="./IMG/Tabla.png" 
+                  alt="tabla"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="titulo-de-proyectos">Formulario</h3>
+                <p class="detalles-de-proyectos">
+                  Formulario de consulta simple
+                </p>
+                <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="contacto" id="contacto">
+            <h2>Contactame</h2>
+            <div class="formulario-contacto-contenedor">
+              <div class="formulario-contacto">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                  <div class="control-formulario">
+                    <label for="name">Nombre</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="sender-name"
+                      placeholder="Escribe tu nombre"
+                      class="input-field"
+                      required
+                    />
+                  </div>
+                  <div class="control-formulario">
+                    <label for="email">Correo Electrónico</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="sender-email"
+                      placeholder="Ingreso tu correo electrónico"
+                      class="input-field"
+                      required
+                    />
+                  </div>
+                  <div class="control-formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                      id="mensaje"
+                      cols="60"
+                      rows="10"
+                      placeholder="Escribe tu mensaje"
+                      name="mensaje"
+                      class="input-field"
+                      required
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Enviar"
+                    id="submit-btn"
+                    class="submit-btn"
+                  />
+                </form>
+              </div>
+            </div>
+          </section>
+      
+      
+</body>
+
+</html>
